@@ -1,0 +1,85 @@
+.calculador{
+    background-color:var(--BgPrincipal);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.formGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 58%;
+    gap: 2%;
+    padding: 20px 0;
+}
+
+.formLabel{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.formInput{
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid var(--corDaBorda);
+    outline: none;
+    border-bottom: 2px solid var(--CorDaBorda);
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    background-color: var(--corDoInput);
+}
+
+.resultado{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 38px;
+    width: 50%;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+.resultadoImc{
+    padding: 6px;
+    margin: 12 12px auto;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.7);
+    background-color: var(--BgSecundaria);
+    cursor: pointer;
+}
+
+.imcTable{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.tabela{
+    padding: 12px 12px 28px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 14px;
+
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 10px;
+}
+
+.titulo {
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+}
+
+
+

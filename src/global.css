@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --BgPrincipal:#ccae62;
+    --BgSecundaria:#cc8e35;
+    --CorDaBorda: #1e272e; 
+    --corDoTexto: #130f40;
+    --corDoInput: #f7f1e3;
+}
+
+.container{
+    width: 800px;
+    max-width: 100%;
+    margin: 20px auto;
+    border: 2px solid var(--CorDaBorda);
+    color: var(--corDoTexto);
+    
+}
+

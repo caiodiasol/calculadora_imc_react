@@ -1,0 +1,28 @@
+.header{
+    background-color: var(--BgPrincipal);
+    padding: 24px 42px;
+    border-bottom: 2px solid var(--CorDaBorda);
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+.header__title{
+    font-size: 48px;
+    text-align: center;
+}
+
+.header__description{
+    margin: 24px 60px 0;
+    line-height: 24px;
+    font-size: 14px;
+    display: flex;
+    gap: 16px;
+}
+
+.info{
+    border-bottom: 6px dotted var(--CorDaBorda);
+    width: 800px;
+    cursor: help;
+}
